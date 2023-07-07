@@ -1,0 +1,82 @@
+.dry-fruit
+{
+    height: 400px;
+    width: 400px;
+    
+    
+}
+.col-sm
+{
+    
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.container-1
+{
+    display: flex;
+    padding: 30px;
+             
+}
+.text
+{
+    text-align: center;
+    width: 400px;
+    margin-top: 10px;
+    font-style: italic;
+}
+.hero-image
+{
+    background-image: url("https://www.wellcurve.in/blog/wp-content/uploads/2020/07/List-Dry-fruits-Name.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: auto;
+     
+}
+.heading
+{
+  text-align: left;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.hero-subheading
+{
+  text-align: left;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.zoom-effect-container {
+    float: left;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.image-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+.image-card img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
